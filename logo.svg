@@ -1,0 +1,22 @@
+<svg
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="10.931in" height="2.514in">
+<defs>
+<filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="787px" height="181px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="10" />
+    <feGaussianBlur result="blurOut" stdDeviation="0" />
+    <feFlood flood-color="rgb(252, 88, 236)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="1"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+</defs>
+<g filter="url(#Filter_0)">
+<text font-family="Futura PT" fill="rgb(244, 215, 77)" font-size="200px" x="0px" y="153.062px">DE&#36;&#49;GN</text>
+</g>
+</svg>
